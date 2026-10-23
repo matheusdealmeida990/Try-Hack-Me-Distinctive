@@ -1,0 +1,15 @@
+# THM - NoScope (Remote Code Execution)
+
+A comprehensive walkthrough and documentation of the **NoScope** room on TryHackMe, focusing on exploiting a critical logic flaw leading to Remote Code Execution (RCE).
+
+## 🚀 Key Takeaways & Technical Skills
+
+* **Source Code Analysis & Flaw Identification:** Exploited a business logic vulnerability within the `returnClass.forName()` implementation in Alf.io.
+* **Event-Driven Exploitation:** Analyzed and triggered the specific execution flow by targeting the `EVENT_STATUS_CHANGE` hook to execute the payload.
+* **Advanced RCE & Sandbox Escape:** Developed a proof-of-concept (PoC) demonstrating a sandbox escape to achieve arbitrary code execution on the underlying system.
+
+## 🏆 Achievements
+
+* **Completed with Distinction:** Ranked in the **Top 25%** of the global leaderboard for this challenge.
+
+* [TryHackMe Profile (matheusmilanez924)](https://tryhackme.com/p/matheusmilanez924 "TryHackMe Profile").
